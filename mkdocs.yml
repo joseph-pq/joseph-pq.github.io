@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Joseph's personal site
+site_url: https://josephpenaquino.github.io/
+theme:
+  name: material
+  language: en
+  features:
+    - header.autohide  # Auto-hide the header
+    - navigation.tabs  # Enable tabs in the navigation bar
+
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Blog:
+    - blog/index.md
+
+
+plugins:
+  - search
+  - blog
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
+
+# Multiple language support
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Spanish
+      link: /es/
+      lang: es
