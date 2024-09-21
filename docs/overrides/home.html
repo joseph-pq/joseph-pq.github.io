@@ -1,0 +1,34 @@
+{% extends "main.html" %}
+
+{% block htmltitle %}
+  <title>{{ config.site_name }}</title>
+{% endblock %}
+
+{% block header %}
+    {{ super() }}
+    <style>
+        .md-header {
+          background-color: transparent;
+        }
+    </style>
+{% endblock %}
+{% block tabs %}
+    {{super()}}
+    <style>
+        .md-tabs {
+          background-color: transparent;
+        }
+    </style>
+{% endblock %}
+
+
+{% block hero %}
+{% endblock %}
+
+
+{% block content %}
+    <h1>Hi, I am Joseph</h1>
+    <p>Researcher</p>
+    <p>Entrepreneur</p>
+    <p>Machine Learning Entusiast</p>
+{% endblock %}

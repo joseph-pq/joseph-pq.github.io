@@ -12,6 +12,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   name: material
+  custom_dir: docs/overrides
   language: en
   features:
     - header.autohide  # Auto-hide the header

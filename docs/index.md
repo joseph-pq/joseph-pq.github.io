@@ -1,5 +1,4 @@
-Hi, I am Joseph
-
-- Researcher
-- Entrepreneur
-- Machine Learning Entusiast
+---
+title: Joseph's personal portfolio
+template: home.html
+---
