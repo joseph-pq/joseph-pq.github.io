@@ -1,7 +1,9 @@
 <div class="container">
+    <div class="title">
     <div class="greetings">Hi! I'm Joseph</div>
     <div class="role-container">
         <div id="role">Researcher</div>
+    </div>
     </div>
     <!-- Social Media Links -->
     <div class="social-media-links">
@@ -29,17 +31,26 @@
     font-size: 3.0em;
     color: #EB4564;
     font-weight: 700;
-}
-.role-container #role {
     display: inline-block;
+    overflow: hidden; /* Ensures the text is hidden during typing */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 0.15em solid #EB4564; /* Creates a typing cursor effect */
+    animation: blink-caret 0.75s step-end infinite; /* Blinking cursor effect */
+    line-height: 1em; /* Aligns text vertically within the container */
+    height: 1em; /* Set a fixed height to prevent movement */
+    margin-bottom: 20px; /* Add space between the role container and the social media links */
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #EB4564; }
 }
 .social-media-links {
-    margin-top: 40px;
     color: #EB4564;
 }
 .social-media-icon {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 </style>

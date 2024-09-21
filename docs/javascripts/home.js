@@ -13,7 +13,7 @@ function typeRole(role, callback) {
             i++;
             setTimeout(typing, 100);
         } else {
-            setTimeout(() => eraseRole(role, callback), 1000); // Pause before erasing
+            setTimeout(() => eraseRole(role, callback), 2000); // Pause before erasing
         }
     }
 
