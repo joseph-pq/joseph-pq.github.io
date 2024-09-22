@@ -19,6 +19,8 @@ Probably, you have thought about these questions too. And you'd said to yourself
 some tips to secure your Android phone.
 Follow these tips and you'll feel more secure with your phone.
 
+<!-- more -->
+
 
 ## Authentication methods
 
@@ -95,6 +97,12 @@ There are some securing options depending on the country you live in.
 - There is a brazilian app that helps you in case you lose your phone.
 
 
+## Specifics by Apps
+
+- Enable biometric for purchases:
+    - Google Play Store
+    - I Food
+
 # Malwares
 
 Use some antivirus to protect your phone from malwares. Some of them are:
@@ -140,6 +148,10 @@ Follow these steps:
 6. Report to the police.
 
 I know, it's a lot of work. But it's better to do this than to lose your money and your data.
+
+## Specifics by App
+
+- I Food: In your new phone, go to security and logout all devices.
 
 # Conclusion
 

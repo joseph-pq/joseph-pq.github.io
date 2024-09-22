@@ -16,6 +16,8 @@ are other testing frameworks like `pytest` which is also popular and some
 developers prefer it over `unittest`. In this article, we'll compare `pytest`
 and `unittest` and see the differences between them.
 
+<!-- more -->
+
 Some of my main references comes from the following articles:
 
 - Platzi's python unit testing course made by professor [Luis Martínez](https://github.com/lcmartinezdev)

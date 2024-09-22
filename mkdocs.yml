@@ -75,3 +75,10 @@ extra:
     - name: Português
       link: /pt/
       lang: pt
+  social:
+    - icon: fontawesome/brands/github
+      name: GitHub
+      link: https://github.com/JosephPenaQuino
+    - icon: fontawesome/brands/linkedin
+      name: LinkedIn
+      link: https://www.linkedin.com/in/joseph-pena-quino
