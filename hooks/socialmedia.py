@@ -4,6 +4,7 @@ import re
 
 x_intent = "https://twitter.com/intent/tweet"
 fb_sharer = "https://www.facebook.com/sharer/sharer.php"
+linkedin_sharer = "https://www.linkedin.com/sharing/share-offsite/"
 include = re.compile(r"blog/[1-9].*")
 
 def on_page_markdown(markdown, **kwargs):
@@ -18,4 +19,5 @@ def on_page_markdown(markdown, **kwargs):
     return markdown + dedent(f"""
     [Share on :simple-x:]({x_intent}?text={page_title}&url={page_url}){{ .md-button }}
     [Share on :simple-facebook:]({fb_sharer}?u={page_url}){{ .md-button }}
+    [Share on :simple-linkedin:]({linkedin_sharer}?url={page_url}){{ .md-button }}
     """)
