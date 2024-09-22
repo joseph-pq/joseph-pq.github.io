@@ -52,7 +52,9 @@ nav:
 
 
 plugins:
-  - search
+  - projects  # optimized sites that rank great on search engines
+  - optimize
+  - search  # search box
   - blog
   - rss:
       match_path: blog/posts/.*
