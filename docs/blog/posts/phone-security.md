@@ -73,7 +73,7 @@ Some examples are:
 
 I do not recommend using your phone number as a second factor of authentication.
 Some malicious people working on telecommunication companies can steal your phone number
-and use it to access your accounts. This is called **SIM swapping**.
+and use it to access your accounts. This is called [SIM swapping](https://tmo.report/2024/04/t-mobile-employees-across-the-country-receive-cash-offers-to-illegally-swap-sims/).
 
 ## Specific Phone Companies
 
