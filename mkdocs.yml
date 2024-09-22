@@ -2,6 +2,7 @@
 
 # Site
 site_name: Joseph's personal site
+site_description: The personal site of Joseph Pena Quino
 site_url: https://josephpenaquino.github.io/
 
 # Git
@@ -57,10 +58,10 @@ plugins:
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
+        as_creation: date.created
+        as_update: date.updated
+hooks:
+  - hooks/socialmedia.py
 
 
 # Multiple language support
@@ -82,3 +83,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       name: LinkedIn
       link: https://www.linkedin.com/in/joseph-pena-quino
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
