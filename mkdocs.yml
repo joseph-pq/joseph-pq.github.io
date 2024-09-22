@@ -52,8 +52,6 @@ nav:
 
 
 plugins:
-  - projects  # optimized sites that rank great on search engines
-  - optimize
   - search  # search box
   - blog
   - rss:
