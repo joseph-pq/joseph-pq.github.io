@@ -5,6 +5,7 @@ categories:
   - samsung
   - android
   - cybersecurity
+comments: true
 ---
 
 # Securing your Android phone
