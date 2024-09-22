@@ -95,7 +95,9 @@ There are some securing options depending on the country you live in.
 
 ## Brasil
 
-- There is a brazilian app that helps you in case you lose your phone.
+- The brazilian government offer the app "Celular seguro". There wen can
+  register our phone and if someone steals it, we can block the phone number
+  and the phone will be blocked in all carriers.
 
 
 ## Specifics by Apps
