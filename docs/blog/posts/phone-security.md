@@ -37,6 +37,17 @@ methods to authenticate yourself in your phone. Some of them are:
 
 ## Password manager
 
+Passwords are something we learned since our first access to the internet.
+We use passwords to log in to websites, apps, and other services.
+But, how can you remember all your passwords? or you used the same password for all your accounts?
+Probably you already have known about big companies that have been hacked and millions of
+passwords have been leaked.
+As a recommendation, check if your account has been leaked in [haveibeenpwned](https://haveibeenpwned.com/).
+If you have been leaked, change your password immediately.
+Actually, you should change your password periodically.
+If you have an outlook account, you can check all attempts to access your account in [account.microsoft.com](https://account.microsoft.com/account/Account?refd=account.microsoft.com&refp=security).
+
+Given the problems with passwords, there is something will help you yo be more secure:
 Passwords manager are tools that help you to store your passwords in a secure way. You can use
 a password manager to store your passwords and use them when you need to log in to a website or
 an app.
@@ -45,8 +56,7 @@ Thus, you can use **strong** and **different passwords** for each account.
 Strong becuase it's hard to guess and different because if someone steals your password, they
 won't be able to access all your accounts.
 Or if a website is hacked, your other accounts won't be compromised.
-Probably you already have known about big companies that have been hacked and millions of
-passwords have been leaked. That's why you need to use a password manager.
+
 I recommend using [Bitwarden](https://bitwarden.com/), it's open-source and free.
 
 ### Bitwarden
