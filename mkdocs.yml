@@ -101,6 +101,8 @@ extra:
     - icon: fontawesome/brands/linkedin
       name: LinkedIn
       link: https://www.linkedin.com/in/joseph-pena-quino
+    - icon: fontawesome/solid/rss
+      link: https://josephpenaquino.github.io/feed_rss_created.xml
 
 markdown_extensions:
   - attr_list
