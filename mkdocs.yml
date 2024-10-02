@@ -48,6 +48,7 @@ theme:
 nav:
   - Home: index.md
   - Projects: projects.md
+  - Research: research.md
   - Blog:
     - blog/index.md
 
