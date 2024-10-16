@@ -2,12 +2,12 @@
 
 # Site
 site_name: Joseph's personal site
-site_description: The personal site of Joseph Pena Quino
-site_url: https://josephpenaquino.github.io/
+site_description: The personal site of Joseph Pena
+site_url: https://joseph-pq.github.io/
 
 # Git
-repo_url: https://github.com/JosephPenaQuino/JosephPenaQuino.github.io
-repo_name: JosephPenaQuino.github.io
+repo_url: https://github.com/joseph-pq/joseph-pq.github.io
+repo_name: joseph-pq.github.io
 
 theme:
   icon:
@@ -97,7 +97,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       name: GitHub
-      link: https://github.com/JosephPenaQuino
+      link: https://github.com/joseph-pq
     - icon: fontawesome/brands/linkedin
       name: LinkedIn
       link: https://www.linkedin.com/in/joseph-pena-quino
