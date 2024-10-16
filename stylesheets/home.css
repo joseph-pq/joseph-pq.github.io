@@ -1,0 +1,15 @@
+.md-header {
+    background-color: transparent;
+}
+[data-md-color-scheme="default"] .md-header {
+    color: #EB4564;
+}
+.md-tabs {
+    background-color: transparent;
+}
+[data-md-color-scheme="default"] .md-tabs {
+    color: #EB4564;
+}
+.md-tabs-bar {
+    background-color: #f4f4f4;
+}
