@@ -148,6 +148,8 @@ Use these configurations to protect your phone if someone steals it:
 - Setup a secure lock screen
 - Setup password to turn off the phone. If someone steals your phone, they won't be able
   to turn off the phone and you can track it and erase your data remotely using Google find my phone.
+- If you use MercadoLibre:
+  - Setup a trusted person.
 
 # Protocol in case of losing your phone or someone steals it
 
@@ -158,7 +160,10 @@ Follow these steps:
 3. Call the bank companies to block your credit cards.
 4. Call the phone company to block your phone number.
 5. Change your passwords of your accounts linked to your phone number.
-6. Report to the police.
+6. Based on the apps you have installed, do the following:
+    - I Food: Logout all devices.
+    - MercadoLibre: Call the support to block your account.
+7. Report to the police.
 
 I know, it's a lot of work. But it's better to do this than to lose your money and your data.
 
