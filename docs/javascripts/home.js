@@ -1,4 +1,4 @@
-const roles = ["Researcher", "Developer", "Machine Learning Enthusiast"];
+const roles = ["Machine Learning Engineer", "Researcher", "Developer"];
 let index = 0;
 let roleElement = document.getElementById('role');
 

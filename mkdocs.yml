@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 # Site
-site_name: Joseph's personal site
-site_description: The personal site of Joseph Pena
+site_name: Joseph Pena Quino – Machine Learning Engineer
+site_description: The personal site of Joseph Pena Quino, a Machine Learning Engineer specializing in AI and Data Science.
 site_url: https://joseph-pq.github.io/
 
 # Git
