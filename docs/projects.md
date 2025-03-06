@@ -1,7 +1,7 @@
 <div class="grid cards" markdown>
 -   :fontawesome-solid-water:{ .lg .middle .river } __AWIVE__
 
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left width=300 loading=lazy }
+    ![Image title](./assets/images/awive.jpg){ align=left width=300 loading=lazy }
 
     Adaptive Water Image Velocimetry (AWIVE) is a novel technique for
     estimating the velocity of water in rivers and streams using image processing
@@ -16,7 +16,7 @@
 <div class="grid cards" markdown>
 -   :sparkles:{ .lg .middle } __Skills Finder with LLM__
 
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left width=300 loading=lazy }
+    ![Image title](./assets/images/skills-finder.jpg){ align=left width=300 loading=lazy }
 
     A web application that uses a Large Language Model (LLM) to find the current
     skills required trending in the job market. The application uses the Gemini
