@@ -24,4 +24,5 @@
     ---
 
     [:material-github: Repository](https://github.com/joseph-pq/skills-finder)
+    [:material-web: Skills-Finder site](https://joseph-pq.github.io/skills-finder/)
 </div>
