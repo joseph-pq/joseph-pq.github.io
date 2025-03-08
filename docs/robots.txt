@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: joseph-pq.github.io/sitemap.xml
+Sitemap: https://joseph-pq.github.io/sitemap.xml
