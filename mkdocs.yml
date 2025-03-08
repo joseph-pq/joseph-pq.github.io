@@ -10,8 +10,9 @@ repo_url: https://github.com/joseph-pq/joseph-pq.github.io
 repo_name: joseph-pq.github.io
 
 theme:
-  icon:
-    repo: fontawesome/brands/git-alt
+  icon: assets/images/logo.png
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
   name: material
   custom_dir: docs/overrides
   language: en
