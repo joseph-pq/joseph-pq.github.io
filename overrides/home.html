@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="stylesheets/home.css">
+<meta property="og:title" content="Joseph Pena Quino – Machine Learning Engineer">
+<meta property="og:description" content="Discover research, projects, and insights from Joseph Pena Quino, an expert in AI and Data Science.">
+<meta property="og:image" content="https://joseph-pq.github.io/assets/images/profile.jpg">
+<meta property="og:url" content="https://joseph-pq.github.io/">
+<meta property="og:type" content="website">
+{% endblock %}
+
+{% block content %}
+{% include "partials/home-content.html" %}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="javascripts/home.js"> </script>
+{% endblock %}
+
+{% block footer %}{% endblock %}  <!-- No footer in home.html -->
+{% block site_nav %}{% endblock %}
+
