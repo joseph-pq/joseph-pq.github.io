@@ -1,4 +1,20 @@
 <div class="grid cards" markdown>
+-   :fontawesome-solid-chess:{ .lg .middle .duel-links } __Duel Links Simulator__
+
+    ![Image title](./assets/images/duel-links-simulator.png){ align=left width=300 loading=lazy }
+
+    A Yu-Gi-Oh! Duel Links simulator that allows players to simulate combos
+    and test their decks. The simulator uses a custom-built engine to simulate
+    the game mechanics and card interactions. It is 100% client-side and does
+    not require any server-side processing.
+    ---
+
+    [:material-github: Repository](https://github.com/joseph-pq/yugioh-simulator)
+    [:material-web: Duel-Links Simulator site](https://joseph-pq.github.io/yugioh-simulator/)
+
+</div>
+
+<div class="grid cards" markdown>
 -   :fontawesome-solid-water:{ .lg .middle .river } __AWIVE__
 
     ![Image title](./assets/images/awive.jpg){ align=left width=300 loading=lazy }
