@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{# JSON Feed #}
+{% if "rss" in config.plugins %}
+<link
+  rel="alternate"
+  type="application/feed+json"
+  title="JSON feed" href="{{ 'feed_json_created.json' | url }}"
+  />
+<link
+  rel="alternate"
+  type="application/feed+json"
+  title="JSON feed of updated content"
+  href="{{ 'feed_json_updated.json' | url }}" />
+{% endif %}
+
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="RSS feed of created content" href="{{ config.site_url }}feed_rss_created.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="{{ config.site_url }}feed_rss_updated.xml">
+<meta name="google-site-verification" content="Nvxj_K0qF1ZtuCijtYl9C9cbg6xSHn3xnm3uw9D2VUc" />
+<meta name="title" content="Joseph Pena Quino – Machine Learning Engineer" />
+<meta name="author" content="Joseph Pena Quino"/>
+<meta name="keywords" content="Joseph Pena Quino, Machine Learning Engineer, AI, Data Science, Deep Learning" />
+{% endblock %}

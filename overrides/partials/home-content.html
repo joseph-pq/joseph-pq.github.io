@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="title">
+    <div class="greetings">Hi! I'm Joseph <span class="wave">👋🏾</span> </div>
+    <div class="role-container">
+        <div id="role">Researcher</div>
+    </div>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-media-links">
+        <a href="https://www.linkedin.com/in/joseph-pena-quino" target="_blank">
+            <img src="assets/images/linkedin.png" alt="LinkedIn" class="social-media-icon">
+        </a>
+        <a href="https://stackoverflow.com/users/7911130/joseph-pena" target="_blank">
+            <img src="assets/images/stackoverflow.png" alt="Stack Overflow" class="social-media-icon">
+        </a>
+        <a href="https://github.com/joseph-pq" target="_blank">
+            <img src="assets/images/github.png" alt="GitHub" class="social-media-icon">
+        </a>
+        <a href="https://www.researchgate.net/profile/Joseph-Pena-7" target="_blank">
+            <img src="assets/images/research_gate.png" alt="ResearchGate" class="social-media-icon">
+        </a>
+        <!-- <a href="https://huggingface.co/joseph-pena" target="_blank"> -->
+        <!--     <img src="assets/images/hugging_face.png" alt="Hungging Face" class="social-media-icon"> -->
+        <!-- </a> -->
+        <!-- <a href="https://www.kaggle.com/josephpena" target="_blank"> -->
+        <!--     <img src="assets/images/kaggle.png" alt="Kaggle" class="social-media-icon"> -->
+        <!-- </a> -->
+        <a href="https://orcid.org/0000-0002-7582-0092" target="_blank">
+            <img src="assets/images/orcid.png" alt="ORCID" class="social-media-icon">
+        </a>
+        <!-- <a href="http://lattes.cnpq.br/4492468777612454" target="_blank"> -->
+        <!--     <img src="assets/images/lattes.png" alt="Lattes" class="social-media-icon"> -->
+        <!-- </a> -->
+    </div>
+</div>
+<style>
+.container {
+    margin-top: 150px;
+}
+.greetings {
+    font-size: 3.0em;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.role-container {
+    font-size: 3.0em;
+    color: #EB4564;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden; /* Ensures the text is hidden during typing */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 0.15em solid #EB4564; /* Creates a typing cursor effect */
+    animation: blink-caret 0.75s step-end infinite; /* Blinking cursor effect */
+    line-height: 1em; /* Aligns text vertically within the container */
+    height: 1em; /* Set a fixed height to prevent movement */
+    margin-bottom: 20px; /* Add space between the role container and the social media links */
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #EB4564; }
+}
+.social-media-links {
+    color: #EB4564;
+}
+.social-media-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* code from https://codepen.io/jakejarvis/pen/pBZWZw */
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+</style>
